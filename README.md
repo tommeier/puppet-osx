@@ -69,6 +69,10 @@ Just `include` any of these in your manifest.
 
 * `include osx::safari::enable_developer_mode` - enables developer mode in safari
 
+### iCal Settings
+
+* `include osx::ical::enable_timezone_support` - enable timezone support in iCal
+
 ### Miscellaneous Settings
 
 * `osx::disable_app_quarantine` - disable the downloaded app quarantine
