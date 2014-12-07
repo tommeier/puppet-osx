@@ -254,6 +254,15 @@ class { 'osx::dock::magnification':
 }
 ```
 
+`osx::ical::view_in_timezone` - set timezone to view iCal in
+
+```puppet
+# set the time zone for viewing in iCal
+class { 'osx::ical::view_in_timezone':
+  time_zone => 'Australia/Melbourne'
+}
+```
+
 ## Required Puppet Modules
 
 * boxen
