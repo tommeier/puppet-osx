@@ -72,6 +72,7 @@ Just `include` any of these in your manifest.
 ### iCal Settings
 
 * `include osx::ical::enable_timezone_support` - enable timezone support in iCal
+* `include osx::ical::display_birthdays` - Display birthday calendar
 
 ### Miscellaneous Settings
 
